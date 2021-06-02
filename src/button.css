@@ -1,0 +1,40 @@
+:root {
+    --warning: #F9DC5C;  
+  }
+  
+  .btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Button Colors and Styles */
+  
+  .btn--warning--solid {
+    background-image: linear-gradient(
+    -225deg,
+    #ffff 1%,
+    #f18517 80%
+  );
+    color: var(--dark);
+    border: none;
+  } 
+  /* Button Size */
+  
+  .btn--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+    
+  }
+  
+  .btn--large {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
